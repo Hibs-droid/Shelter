@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Auto populate email and phone number for client</description>
+        <field>nom</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>AutoPop</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+  if (isLoading || newValue === '') {
+    return;
+  }
+
+  var clientSysId = g_form.getValue('nom');
+
+  if (clientSysId) {
+    var ga = new GlideAjax('ClientScriptUtils');
+    ga.addParam('sysparm_name', 'getClientData');
+    ga.addParam('sysparm_client_sys_id', clientSysId);
+    ga.getXMLAnswer(function(response) {
+      alert('GlideAjax Response: ' + response);  // Display the full response
+      try {
+        var data = JSON.parse(response);
+        g_form.setValue('telephone', data.telephone);
+        g_form.setValue('email', data.email);
+      } catch (e) {
+        alert('Error parsing JSON: ' + e);  // Display any JSON parsing errors
+      }
+    });
+  }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-15 13:46:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbb8c67e97d00210c401f6fce053afa4</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>AutoPop</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sys_script_client_dbb8c67e97d00210c401f6fce053afa4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-15 14:40:49</sys_updated_on>
+        <table>x_1297259_shelter_adoption</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

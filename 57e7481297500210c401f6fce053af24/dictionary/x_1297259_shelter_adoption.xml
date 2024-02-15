@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dab454ea97500210c401f6fce053afcc" max_length="40" name="x_1297259_shelter_adoption" type="collection">
+        <element label="Description" max_length="300" name="description" read_only="true" type="string"/>
+        <element label="pic" max_length="40" name="pic" read_only="true" type="user_image"/>
+        <element choice="1" default="Open" label="Statut" max_length="40" name="statut" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
