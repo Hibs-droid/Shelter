@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9e800ca297100210c401f6fce053af1c" label="Race" max_length="40" name="x_1297259_shelter_race" type="collection">
+        <element display="true" label="Nom" max_length="40" name="nom" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Oiseau" sequence="0" value="Oiseau"/>
+                <element inactive_on_update="false" label="Chien" sequence="1" value="Chien"/>
+                <element inactive_on_update="false" label="Chat" sequence="2" value="Chat"/>
+                <element inactive_on_update="false" label="Poisson" sequence="3" value="Poisson"/>
+                <element inactive_on_update="false" label="Lapin" sequence="4" value="Lapin"/>
+            </choice>
+        </element>
+    </element>
+</database>

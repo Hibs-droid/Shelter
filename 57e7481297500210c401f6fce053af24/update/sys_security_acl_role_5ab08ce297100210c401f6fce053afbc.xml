@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 09:11:21</sys_created_on>
+        <sys_id>5ab08ce297100210c401f6fce053afbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1297259_shelter_race.x_1297259_shelter.race_user</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_security_acl display_value="x_1297259_shelter_race">dab08ce297100210c401f6fce053afb9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5ab08ce297100210c401f6fce053afbc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 09:11:21</sys_updated_on>
+        <sys_user_role display_value="x_1297259_shelter.race_user" name="x_1297259_shelter.race_user">c2b08ce297100210c401f6fce053af87</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="16c0402697100210c401f6fce053af41" label="Animal" max_length="40" name="x_1297259_shelter_animal" type="collection">
+        <element label="Adopté" max_length="40" name="adopte" type="boolean"/>
+        <element label="Age" max_length="40" name="age" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="ID" max_length="40" name="id" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="Proprio" max_length="32" name="proprio" read_only="true" reference="x_1297259_shelter_client" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_string_1" type="string"/>
+        <index name="index">
+            <element name="proprio"/>
+        </index>
+    </element>
+</database>
