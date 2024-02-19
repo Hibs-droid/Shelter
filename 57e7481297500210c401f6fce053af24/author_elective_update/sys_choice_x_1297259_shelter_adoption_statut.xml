@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="statut" table="x_1297259_shelter_adoption" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>statut</element>
+            <name>x_1297259_shelter_adoption</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>elalaoui.mouna</sys_created_by>
+            <sys_created_on>2024-02-14 09:22:26</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>statut</sys_name>
+            <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+            <sys_update_name>sys_choice_x_1297259_shelter_adoption_statut</sys_update_name>
+            <sys_updated_by>elalaoui.mouna</sys_updated_by>
+            <sys_updated_on>2024-02-14 09:22:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>statut</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_1297259_shelter_adoption</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>elalaoui.mouna</sys_created_by>
+            <sys_created_on>2024-02-14 10:47:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>elalaoui.mouna</sys_updated_by>
+            <sys_updated_on>2024-02-14 10:47:26</sys_updated_on>
+            <value>Open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>statut</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_1297259_shelter_adoption</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>elalaoui.mouna</sys_created_by>
+            <sys_created_on>2024-02-14 10:47:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>elalaoui.mouna</sys_updated_by>
+            <sys_updated_on>2024-02-14 10:47:26</sys_updated_on>
+            <value>In Progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>statut</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Overdue</label>
+            <language>en</language>
+            <name>x_1297259_shelter_adoption</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>elalaoui.mouna</sys_created_by>
+            <sys_created_on>2024-02-14 10:47:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>elalaoui.mouna</sys_updated_by>
+            <sys_updated_on>2024-02-14 10:47:26</sys_updated_on>
+            <value>Overdue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>statut</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_1297259_shelter_adoption</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>elalaoui.mouna</sys_created_by>
+            <sys_created_on>2024-02-14 10:47:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>elalaoui.mouna</sys_updated_by>
+            <sys_updated_on>2024-02-14 10:47:26</sys_updated_on>
+            <value>Completed</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

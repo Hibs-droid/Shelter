@@ -2,11 +2,24 @@
     <element db_object_id="16c0402697100210c401f6fce053af41" label="Animal" max_length="40" name="x_1297259_shelter_animal" type="collection">
         <element label="Adopté" max_length="40" name="adopte" type="boolean"/>
         <element label="Age" max_length="40" name="age" type="string"/>
+        <element choice="1" label="Genre" mandatory="true" max_length="40" name="genre" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Femelle" sequence="0" value="Femelle"/>
+                <element inactive_on_update="false" label="Male" sequence="1" value="Male"/>
+            </choice>
+        </element>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="ID" max_length="40" name="id" read_only="true" type="string" use_dynamic_default="true"/>
+        <element display="true" label="Nom" max_length="40" name="nom" type="string"/>
+        <element label="Photo" max_length="40" name="photo" type="user_image"/>
         <element label="Proprio" max_length="32" name="proprio" read_only="true" reference="x_1297259_shelter_client" type="reference"/>
+        <element label="Race" mandatory="true" max_length="32" name="race" reference="x_1297259_shelter_race" type="reference"/>
+        <element label="Description" max_length="300" name="u_integer_1" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_string_1" type="string"/>
         <index name="index">
             <element name="proprio"/>
+        </index>
+        <index name="index2">
+            <element name="race"/>
         </index>
     </element>
 </database>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">9741290097600210c401f6fce053af06</sp_column>
+        <sp_widget display_value="Fiche">8e4a518497200210c401f6fce053af4e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 08:04:28</sys_created_on>
+        <sys_id>2b51214097600210c401f6fce053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sp_instance_2b51214097600210c401f6fce053af6a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 08:04:28</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b51214097600210c401f6fce053af6a"/>
+</record_update>

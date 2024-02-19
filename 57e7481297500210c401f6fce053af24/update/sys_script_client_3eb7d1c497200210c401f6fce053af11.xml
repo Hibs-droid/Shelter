@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>widgInf</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    // Fetch and populate client data
+    fetchClientData();
+    
+    // Fetch and populate adoption data
+    fetchAdoptionData();
+}
+
+function fetchClientData() {
+    var ga = new GlideAjax('WidgetDataScriptInclude');
+    ga.addParam('sysparm_name', 'getClientData');
+    ga.getXMLAnswer(function(response) {
+        var clientData = JSON.parse(response);
+        var clientList = document.getElementById('client-list');
+        clientData.forEach(function(client) {
+            var listItem = document.createElement('li');
+            listItem.textContent = client.nom_complet + ' - ' + client.u_string_1; // Adjust as per your fields
+            clientList.appendChild(listItem);
+        });
+    });
+}
+
+function fetchAdoptionData() {
+    var ga = new GlideAjax('WidgetDataScriptInclude');
+    ga.addParam('sysparm_name', 'getAdoptionData');
+    ga.getXMLAnswer(function(response) {
+        var adoptionData = JSON.parse(response);
+        var adoptionTableBody = document.getElementById('adoption-table').getElementsByTagName('tbody')[0];
+        adoptionData.forEach(function(adoption) {
+            var row = document.createElement('tr');
+            var cell1 = document.createElement('td');
+            cell1.textContent = adoption.nom; // Adjust as per your fields
+            row.appendChild(cell1);
+            var cell2 = document.createElement('td');
+            cell2.textContent = adoption.short_description; // Adjust as per your fields
+            row.appendChild(cell2);
+            var cell3 = document.createElement('td');
+            cell3.textContent = adoption.animal; // Adjust as per your fields
+            row.appendChild(cell3);
+            adoptionTableBody.appendChild(row);
+        });
+    });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 07:30:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3eb7d1c497200210c401f6fce053af11</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>widgInf</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sys_script_client_3eb7d1c497200210c401f6fce053af11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 07:40:10</sys_updated_on>
+        <table>x_1297259_shelter_adoption</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

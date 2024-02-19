@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="fiche - Container 1">c021a10097600210c401f6fce053af98</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 08:04:11</sys_created_on>
+        <sys_id>5341290097600210c401f6fce053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sp_row_5341290097600210c401f6fce053af04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 08:04:11</sys_updated_on>
+    </sp_row>
+</record_update>

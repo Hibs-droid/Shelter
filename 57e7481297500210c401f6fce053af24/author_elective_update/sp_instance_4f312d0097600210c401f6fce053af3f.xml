@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f43165cc97200210c401f6fce053afbb</sp_column>
+        <sp_widget display_value="Fiche">8e4a518497200210c401f6fce053af4e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 08:03:54</sys_created_on>
+        <sys_id>4f312d0097600210c401f6fce053af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sp_instance_4f312d0097600210c401f6fce053af3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 08:03:54</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=4f312d0097600210c401f6fce053af3f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shelter">57e7481297500210c401f6fce053af24</application>
+        <file_path/>
+        <instance_id>483497921bbaf5149377eb9b2d4bcbad</instance_id>
+        <instance_name>dev231083</instance_name>
+        <name>sp_instance_4f312d0097600210c401f6fce053af3f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">f43165cc97200210c401f6fce053afbb</sp_column><sp_widget display_value="Fiche">8e4a518497200210c401f6fce053af4e</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-19 08:03:54</sys_created_on><sys_id>4f312d0097600210c401f6fce053af3f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package><sys_policy/><sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope><sys_update_name>sp_instance_4f312d0097600210c401f6fce053af3f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-19 08:03:54</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=4f312d0097600210c401f6fce053af3f"/></record_update>]]></payload>
+        <payload_hash>1410808220</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>9638045297500210c401f6fce053af16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 08:03:54</sys_created_on>
+        <sys_id>03312d0097600210c401f6fce053af42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc06498b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 08:03:54</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>47312d009b6002103686616cb53ff041</update_guid>
+        <update_guid_history>47312d009b6002103686616cb53ff041:1410808220</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9941ad0097600210c401f6fce053af89</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 08:04:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>04b4153f8e384c9480324fee97159790</sys_id>
+        <sys_metadata>4f312d0097600210c401f6fce053af3f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_scope_delete display_value="">42ae0e40e01f4d86a539182e2c18ba11</sys_scope_delete>
+        <sys_update_name>sp_instance_4f312d0097600210c401f6fce053af3f</sys_update_name>
+        <sys_update_version display_value="sp_instance_4f312d0097600210c401f6fce053af3f">03312d0097600210c401f6fce053af42</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 08:04:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

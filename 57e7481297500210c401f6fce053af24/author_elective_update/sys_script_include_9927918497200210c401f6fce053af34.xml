@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1297259_shelter.test</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>test</name>
+        <script><![CDATA[var test = Class.create();
+test.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'test'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 07:20:16</sys_created_on>
+        <sys_id>9927918497200210c401f6fce053af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sys_script_include_9927918497200210c401f6fce053af34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 07:20:16</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shelter">57e7481297500210c401f6fce053af24</application>
+        <file_path/>
+        <instance_id>483497921bbaf5149377eb9b2d4bcbad</instance_id>
+        <instance_name>dev231083</instance_name>
+        <name>sys_script_include_9927918497200210c401f6fce053af34</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1297259_shelter.test&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;test&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var test = Class.create();
+test.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'test'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-19 07:20:16&lt;/sys_created_on&gt;&lt;sys_id&gt;9927918497200210c401f6fce053af34&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;test&lt;/sys_name&gt;&lt;sys_package display_value="Shelter" source="x_1297259_shelter"&gt;57e7481297500210c401f6fce053af24&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Shelter"&gt;57e7481297500210c401f6fce053af24&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_9927918497200210c401f6fce053af34&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-19 07:20:16&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-128084417</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>9638045297500210c401f6fce053af16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 07:20:17</sys_created_on>
+        <sys_id>0047998497200210c401f6fce053afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc03ca7c60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 07:20:17</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>44479984ed200210cb5ef0162a0d8ae6</update_guid>
+        <update_guid_history>44479984ed200210cb5ef0162a0d8ae6:-128084417</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 07:21:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1e580b2798c644f1a2c97a5ac8e35df9</sys_id>
+        <sys_metadata>9927918497200210c401f6fce053af34</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_scope_delete display_value="">42ae0e40e01f4d86a539182e2c18ba11</sys_scope_delete>
+        <sys_update_name>sys_script_include_9927918497200210c401f6fce053af34</sys_update_name>
+        <sys_update_version display_value="sys_script_include_9927918497200210c401f6fce053af34">0047998497200210c401f6fce053afe7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 07:21:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

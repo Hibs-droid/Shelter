@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="dab454ea97500210c401f6fce053afcc" max_length="40" name="x_1297259_shelter_adoption" type="collection">
+    <element db_object_id="dab454ea97500210c401f6fce053afcc" label="Adoption" max_length="40" name="x_1297259_shelter_adoption" type="collection">
+        <element label="Animal" max_length="32" name="animal" reference="x_1297259_shelter_animal" reference_qual="adopte=false^EQ" reference_qual_condition="adopte=false^EQ" type="reference"/>
         <element label="Description" max_length="300" name="description" read_only="true" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Nom" max_length="32" name="nom" reference="x_1297259_shelter_client" type="reference"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
         <element label="pic" max_length="40" name="pic" read_only="true" type="user_image"/>
+        <element label="Pickup date" max_length="40" name="pickup_date" type="glide_date"/>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
         <element choice="1" default="Open" label="Statut" max_length="40" name="statut" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive_on_update="false" label="Overdue" sequence="2" value="Overdue"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="Completed"/>
+            </choice>
         </element>
+        <element label="Telephone" max_length="40" name="telephone" type="phone_number_e164"/>
+        <index name="index">
+            <element name="animal"/>
+        </index>
+        <index name="index2">
+            <element name="nom"/>
+        </index>
     </element>
 </database>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1297259_shelter_widgetInfos.do</endpoint>
+        <html><![CDATA[<sn-widget id="my-widget">
+    <div id="header">
+        <!-- Client Data -->
+        <div id="client-data">
+            <h2>Client Data</h2>
+            <ul id="client-list">
+                <!-- Client data will be populated dynamically -->
+            </ul>
+        </div>
+    </div>
+    <div id="body">
+        <!-- Adoption Data -->
+        <div id="adoption-data">
+            <h2>Adoption Data</h2>
+            <table id="adoption-table">
+                <thead>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <!-- Add more columns as needed -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Adoption data will be populated dynamically -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</sn-widget>
+]]></html>
+        <name>widgetInfos</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 07:17:41</sys_created_on>
+        <sys_id>3b16194497200210c401f6fce053afcc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>widgetInfos</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sys_ui_page_3b16194497200210c401f6fce053afcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 07:19:59</sys_updated_on>
+    </sys_ui_page>
+</record_update>

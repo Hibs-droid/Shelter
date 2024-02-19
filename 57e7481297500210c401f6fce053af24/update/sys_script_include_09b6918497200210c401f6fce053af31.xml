@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1297259_shelter.WidgetDataScriptInclude</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>WidgetDataScriptInclude</name>
+        <script><![CDATA[var WidgetDataScriptInclude = Class.create();
+
+WidgetDataScriptInclude.prototype = Object.extendsObject(global.AbstractAjaxProcessor,  {
+    getClientData: function() {
+        var clientData = [];
+        var clientGR = new GlideRecord('x_1297259_shelter_client');
+        clientGR.query();
+        while (clientGR.next()) {
+            var clientRecord = {
+                'nom': clientGR.getValue('nom_complet'), 
+                'description': clientGR.getValue('u_string_1'),
+                // Add more fields as needed
+            };
+            clientData.push(clientRecord);
+        }
+        return JSON.stringify(clientData);
+    },
+
+    getAdoptionData: function() {
+        var adoptionData = [];
+        var adoptionGR = new GlideRecord('x_1297259_shelter_adoption');
+        adoptionGR.query();
+        while (adoptionGR.next()) {
+            var adoptionRecord = {
+                'nom': adoptionGR.getValue('nom'), // Replace 'column1' with actual field names
+                'animal': adoptionGR.getValue('animal'),
+                // Add more columns as needed
+            };
+            adoptionData.push(adoptionRecord);
+        }
+        return JSON.stringify(adoptionData);
+    },
+
+    type: 'WidgetDataScriptInclude'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 07:18:32</sys_created_on>
+        <sys_id>09b6918497200210c401f6fce053af31</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>WidgetDataScriptInclude</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sys_script_include_09b6918497200210c401f6fce053af31</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 09:10:26</sys_updated_on>
+    </sys_script_include>
+</record_update>

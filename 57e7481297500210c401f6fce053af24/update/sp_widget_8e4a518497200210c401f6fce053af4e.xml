@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function onLoad() {
+    // Widget controller 
+    var c = this;
+
+    fetchClientData();
+    
+    // Fetch and populate adoption data
+    fetchAdoptionData();
+}
+
+function fetchClientData() {
+    var ga = new GlideAjax('WidgetDataScriptInclude');
+    ga.addParam('sysparm_name', 'getClientData');
+    ga.getXMLAnswer(function(response) {
+        try {
+            var clientData = JSON.parse(response);
+            var clientList = document.getElementById('client-list');
+            if (clientList) {
+                clientData.forEach(function(client) {
+                    var listItem = document.createElement('li');
+                    listItem.textContent = client.nom_complet + ' - ' + client.u_string_1; // Adjust as per your fields
+                    clientList.appendChild(listItem);
+                });
+            } else {
+                console.error('Client list element not found.');
+            }
+        } catch (error) {
+            console.error('Error fetching client data:', error);
+        }
+    });
+}
+
+function fetchAdoptionData() {
+    var ga = new GlideAjax('WidgetDataScriptInclude');
+    ga.addParam('sysparm_name', 'getAdoptionData');
+    ga.getXMLAnswer(function(response) {
+        try {
+            var adoptionData = JSON.parse(response);
+            var adoptionTableBody = document.getElementById('adoption-table').getElementsByTagName('tbody')[0];
+            if (adoptionTableBody) {
+                adoptionData.forEach(function(adoption) {
+                    var row = document.createElement('tr');
+                    var cell1 = document.createElement('td');
+                    cell1.textContent = adoption.nom; // Adjust as per your fields
+                    row.appendChild(cell1);
+                    var cell2 = document.createElement('td');
+                    cell2.textContent = adoption.short_description; // Adjust as per your fields
+                    row.appendChild(cell2);
+                    var cell3 = document.createElement('td');
+                    cell3.textContent = adoption.animal; // Adjust as per your fields
+                    row.appendChild(cell3);
+                    adoptionTableBody.appendChild(row);
+                });
+            } else {
+                console.error('Adoption table body element not found.');
+            }
+        } catch (error) {
+            console.error('Error fetching adoption data:', error);
+        }
+    });
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>fiche</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Fiche</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script/>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 07:33:31</sys_created_on>
+        <sys_id>8e4a518497200210c401f6fce053af4e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Fiche</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sp_widget_8e4a518497200210c401f6fce053af4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 09:25:06</sys_updated_on>
+        <template><![CDATA[<sn-widget id="my-widget">
+    <div id="header">
+        <!-- Client Data -->
+        <div id="client-data">
+            <h2>Client Data</h2>
+            <ul id="client-list">
+                <!-- Client data will be populated dynamically -->
+            </ul>
+        </div>
+    </div>
+    <div id="body">
+        <!-- Adoption Data -->
+        <div id="adoption-data">
+            <h2>Adoption Data</h2>
+            <table id="adoption-table">
+                <thead>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <!-- Add more columns as needed -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Adoption data will be populated dynamically -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</sn-widget>
+]]></template>
+    </sp_widget>
+</record_update>

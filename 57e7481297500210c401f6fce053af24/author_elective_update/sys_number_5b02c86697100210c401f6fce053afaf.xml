@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1297259_shelter_adoption">x_1297259_shelter_adoption</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ADO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>elalaoui.mouna</sys_created_by>
+        <sys_created_on>2024-02-14 09:17:09</sys_created_on>
+        <sys_id>5b02c86697100210c401f6fce053afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ADO</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sys_number_5b02c86697100210c401f6fce053afaf</sys_update_name>
+        <sys_updated_by>elalaoui.mouna</sys_updated_by>
+        <sys_updated_on>2024-02-14 09:17:09</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shelter">57e7481297500210c401f6fce053af24</application>
+        <file_path/>
+        <instance_id>483497921bbaf5149377eb9b2d4bcbad</instance_id>
+        <instance_name>dev231083</instance_name>
+        <name>sys_number_5b02c86697100210c401f6fce053afaf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1297259_shelter_adoption">x_1297259_shelter_adoption</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>ADO</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>elalaoui.mouna</sys_created_by><sys_created_on>2024-02-14 09:17:09</sys_created_on><sys_id>5b02c86697100210c401f6fce053afaf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ADO</sys_name><sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package><sys_policy/><sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope><sys_update_name>sys_number_5b02c86697100210c401f6fce053afaf</sys_update_name><sys_updated_by>elalaoui.mouna</sys_updated_by><sys_updated_on>2024-02-14 09:17:09</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-623174029</payload_hash>
+        <record_name>ADO</record_name>
+        <reverted_from/>
+        <source>0b10cca297100210c401f6fce053af4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>elalaoui.mouna</sys_created_by>
+        <sys_created_on>2024-02-14 09:17:09</sys_created_on>
+        <sys_id>d302c86697100210c401f6fce053afb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da6e7dd570000001</sys_recorded_at>
+        <sys_updated_by>elalaoui.mouna</sys_updated_by>
+        <sys_updated_on>2024-02-14 09:17:09</sys_updated_on>
+        <type>Number</type>
+        <update_guid>1b02c8666d100210f6f93a06b10eeeb7</update_guid>
+        <update_guid_history>1b02c8666d100210f6f93a06b10eeeb7:-623174029</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>elalaoui.mouna</sys_created_by>
+        <sys_created_on>2024-02-14 10:38:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>0fcfc64b679743a8903a20dc09c7f010</sys_id>
+        <sys_metadata>5b02c86697100210c401f6fce053afaf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ADO</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_parent display_value="">95e0042697100210c401f6fce053af2a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_scope_delete display_value="">42ae0e40e01f4d86a539182e2c18ba11</sys_scope_delete>
+        <sys_update_name>sys_number_5b02c86697100210c401f6fce053afaf</sys_update_name>
+        <sys_update_version display_value="sys_number_5b02c86697100210c401f6fce053afaf">d302c86697100210c401f6fce053afb8</sys_update_version>
+        <sys_updated_by>elalaoui.mouna</sys_updated_by>
+        <sys_updated_on>2024-02-14 10:38:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

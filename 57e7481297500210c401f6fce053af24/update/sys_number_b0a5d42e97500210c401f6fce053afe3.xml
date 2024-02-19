@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1297259_shelter_adoption">x_1297259_shelter_adoption</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ADO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>elalaoui.mouna</sys_created_by>
+        <sys_created_on>2024-02-14 10:42:43</sys_created_on>
+        <sys_id>b0a5d42e97500210c401f6fce053afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ADO</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sys_number_b0a5d42e97500210c401f6fce053afe3</sys_update_name>
+        <sys_updated_by>elalaoui.mouna</sys_updated_by>
+        <sys_updated_on>2024-02-14 10:42:43</sys_updated_on>
+    </sys_number>
+</record_update>

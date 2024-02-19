@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>Adoptions</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>admin</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>elalaoui.mouna</sys_created_by>
+        <sys_created_on>2024-02-14 09:17:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb02c86697100210c401f6fce053af0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adoptions</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_update_name>sys_ui_module_cb02c86697100210c401f6fce053af0b</sys_update_name>
+        <sys_updated_by>elalaoui.mouna</sys_updated_by>
+        <sys_updated_on>2024-02-14 09:17:08</sys_updated_on>
+        <table>x_1297259_shelter_adoption</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shelter">57e7481297500210c401f6fce053af24</application>
+        <file_path/>
+        <instance_id>483497921bbaf5149377eb9b2d4bcbad</instance_id>
+        <instance_name>dev231083</instance_name>
+        <name>sys_ui_module_cb02c86697100210c401f6fce053af0b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>Adoptions</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>admin</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>elalaoui.mouna</sys_created_by><sys_created_on>2024-02-14 09:17:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cb02c86697100210c401f6fce053af0b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Adoptions</sys_name><sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package><sys_policy/><sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope><sys_update_name>sys_ui_module_cb02c86697100210c401f6fce053af0b</sys_update_name><sys_updated_by>elalaoui.mouna</sys_updated_by><sys_updated_on>2024-02-14 09:17:08</sys_updated_on><table>x_1297259_shelter_adoption</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1154357695</payload_hash>
+        <record_name>Adoptions</record_name>
+        <reverted_from/>
+        <source>0b10cca297100210c401f6fce053af4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>elalaoui.mouna</sys_created_by>
+        <sys_created_on>2024-02-14 09:17:08</sys_created_on>
+        <sys_id>cf02c86697100210c401f6fce053af19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da6e7d8d40000001</sys_recorded_at>
+        <sys_updated_by>elalaoui.mouna</sys_updated_by>
+        <sys_updated_on>2024-02-14 09:17:08</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0702c866461002108133fd1403c62619</update_guid>
+        <update_guid_history>0702c866461002108133fd1403c62619:1154357695</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>elalaoui.mouna</sys_created_by>
+        <sys_created_on>2024-02-14 10:38:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>59a6d861715043989b22575f856ff901</sys_id>
+        <sys_metadata>cb02c86697100210c401f6fce053af0b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adoptions</sys_name>
+        <sys_package display_value="Shelter" source="x_1297259_shelter">57e7481297500210c401f6fce053af24</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Shelter">57e7481297500210c401f6fce053af24</sys_scope>
+        <sys_scope_delete display_value="">42ae0e40e01f4d86a539182e2c18ba11</sys_scope_delete>
+        <sys_update_name>sys_ui_module_cb02c86697100210c401f6fce053af0b</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_cb02c86697100210c401f6fce053af0b">cf02c86697100210c401f6fce053af19</sys_update_version>
+        <sys_updated_by>elalaoui.mouna</sys_updated_by>
+        <sys_updated_on>2024-02-14 10:38:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
